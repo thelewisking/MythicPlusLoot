@@ -45,14 +45,14 @@ MPL_tables.get_mythic_labels = get_mythic_labels
 
 local function get_dungeons()
     local dungeonTable = {
-        [L["Algeth'ar Academy"]] = 1,
-        [L["Brackenhide Hollow"]] = 2,
-        [L["Halls of Infusion"]] = 3,
-        [L["Neltharus"]] = 4,
-        [L["Ruby Life Pools"]] = 5,
-        [L["The Azure Vault"]] = 6,
-        [L["The Nokhud Offensive"]] = 7,
-        [L["Uldaman: Legacy of Tyr"]] = 8
+        [L["Ara-Kara, City of Echoes"]] = 1,
+        [L["City of Threads"]] = 2,
+        [L["The Dawnbreaker"]] = 3,
+        [L["The Stonevault"]] = 4,
+        [L["Mists of Tirna Scithe"]] = 5,
+        [L["The Necrotic Wake"]] = 6,
+        [L["Siege of Boralus"]] = 7,
+        [L["Grim Batol"]] = 8
     }
 
     return dungeonTable
@@ -61,14 +61,14 @@ MPL_tables.get_dungeons = get_dungeons
 
 local function dungeon_ids()
     local dungeonIDs = {
-        [L["Algeth'ar Academy"]] = 1201,
-        [L["Brackenhide Hollow"]] = 1196,
-        [L["Halls of Infusion"]] = 1204,
-        [L["Neltharus"]] = 1199,
-        [L["Ruby Life Pools"]] = 1202,
-        [L["The Azure Vault"]] = 1203,
-        [L["The Nokhud Offensive"]] = 1198,
-        [L["Uldaman: Legacy of Tyr"]] = 1197
+        [L["Ara-Kara, City of Echoes"]] = 1271,
+        [L["City of Threads"]] = 1274,
+        [L["The Dawnbreaker"]] = 1270,
+        [L["The Stonevault"]] = 1269,
+        [L["Mists of Tirna Scithe"]] = 1184,
+        [L["The Necrotic Wake"]] = 1182,
+        [L["Siege of Boralus"]] = 1023,
+        [L["Grim Batol"]] = 71
     }
 
     return dungeonIDs
@@ -160,7 +160,8 @@ local function spec_ids()
         },
         [L["Evoker"]] = {
             [L["Devastation"]] = 1467,
-            [L["Preservation"]] = 1468
+            [L["Preservation"]] = 1468,
+            [L["Augmentation"]] = 1473
         }
     }
 
@@ -254,7 +255,8 @@ local function get_specs()
         },
         [L["Evoker"]] = {
             [1] = L["Devastation"],
-            [2] = L["Preservation"]
+            [2] = L["Preservation"],
+            [3] = L["Augmentation"]
         }
     }
 
