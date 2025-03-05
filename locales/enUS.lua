@@ -38,14 +38,14 @@ L["Dungeon Drop"] = "Dungeon Drop"
 L["Weekly Vault"] = "Weekly Vault"
 
 -- Dungeons
-L["Ara-Kara, City of Echoes"] = "Ara-Kara, City of Echoes"
-L["City of Threads"] = "City of Threads"
-L["The Dawnbreaker"] = "The Dawnbreaker"
-L["The Stonevault"] = "The Stonevault"
-L["Mists of Tirna Scithe"] = "Mists of Tirna Scithe"
-L["The Necrotic Wake"] = "The Necrotic Wake"
-L["Siege of Boralus"] = "Siege of Boralus"
-L["Grim Batol"] = "Grim Batol"
+L["Cinderbrew Meadery"] = "Cinderbrew Meadery"
+L["Darkflame Cleft"] = "Darkflame Cleft"
+L["Priory of the Sacred Flame"] = "Priory of the Sacred Flame"
+L["The Rookery"] = "The Rookery"
+L["Operation: Floodgate"] = "Operation: Floodgate"
+L["Theater of Pain"] = "Theater of Pain"
+L["Operation: Mechagon"] = "Operation: Mechagon"
+L["The Motherlode!"] = "The Motherlode!"
 
 
 -- General
@@ -65,6 +65,8 @@ L["M+7"] = "M+7"
 L["M+8"] = "M+8"
 L["M+9"] = "M+9"
 L["M+10"] = "M+10"
+L["M+11"] = "M+11"
+L["M+12"] = "M+12"
 
 L["Class"] = "Class"
 L["All Classes"] = "All Classes"

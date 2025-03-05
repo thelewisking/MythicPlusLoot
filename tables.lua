@@ -36,7 +36,9 @@ local function get_mythic_labels()
         [6] = L["M+7"],
         [7] = L["M+8"],
         [8] = L["M+9"],
-        [9] = L["M+10"]
+        [9] = L["M+10"],
+        [10] = L["M+11"],
+        [11] = L["M+12"]
     }
 
     return mythicLabels
@@ -45,15 +47,18 @@ MPL_tables.get_mythic_labels = get_mythic_labels
 
 local function get_dungeons()
     local dungeonTable = {
-        [L["Ara-Kara, City of Echoes"]] = 1,
-        [L["City of Threads"]] = 2,
-        [L["The Dawnbreaker"]] = 3,
-        [L["The Stonevault"]] = 4,
-        [L["Mists of Tirna Scithe"]] = 5,
-        [L["The Necrotic Wake"]] = 6,
-        [L["Siege of Boralus"]] = 7,
-        [L["Grim Batol"]] = 8
+        [L["Cinderbrew Meadery"]] = 1,
+        [L["Darkflame Cleft"]] = 2,
+        [L["Priory of the Sacred Flame"]] = 3,
+        [L["The Rookery"]] = 4,
+        [L["Operation: Floodgate"]] = 5,
+        [L["Theater of Pain"]] = 6,
+        [L["Operation: Mechagon"]] = 7,
+        [L["The Motherlode!"]] = 8
     }
+
+
+
 
     return dungeonTable
 end
@@ -61,14 +66,14 @@ MPL_tables.get_dungeons = get_dungeons
 
 local function dungeon_ids()
     local dungeonIDs = {
-        [L["Ara-Kara, City of Echoes"]] = 1271,
-        [L["City of Threads"]] = 1274,
-        [L["The Dawnbreaker"]] = 1270,
-        [L["The Stonevault"]] = 1269,
-        [L["Mists of Tirna Scithe"]] = 1184,
-        [L["The Necrotic Wake"]] = 1182,
-        [L["Siege of Boralus"]] = 1023,
-        [L["Grim Batol"]] = 71
+        [L["Cinderbrew Meadery"]] = 1272,
+        [L["Darkflame Cleft"]] = 1210,
+        [L["Priory of the Sacred Flame"]] = 1267,
+        [L["The Rookery"]] = 1268,
+        [L["Operation: Floodgate"]] = 1298,
+        [L["Theater of Pain"]] = 1187,
+        [L["Operation: Mechagon"]] = 1178,
+        [L["The Motherlode!"]] = 1012
     }
 
     return dungeonIDs
